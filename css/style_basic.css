@@ -1,0 +1,108 @@
+#heading{
+font-family:Bebas Nueue
+color: #120303;
+text-align:center;
+}
+body{
+font-family: KlavikaRegular-Plain;
+color: #EFCDC7;
+}
+div.slider {
+      border: 25px ;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width:60%
+
+}
+#header{
+background-color:white;
+ padding:20px;
+ position:fixed;
+ z-index:2;
+ width:100%;
+}
+#bodypart{
+	position:absolute;
+	top:150px;
+}
+div.shadow1 {
+ background:#C0C0C0;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+ 
+
+}
+div.shadowP {
+ background:#FFE4C4;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+}
+div.shadowPS {
+ background:#4169E1;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+}
+div.shadowPS1 {
+ background:#4169E1;
+  
+  text-align: center;
+}
+/* Tablet and bigger */
+/* Tablet and bigger */
+@media ( min-width: 768px ) {
+    .grid-divider {
+        position: relative;
+        padding: 0;
+    }
+    .grid-divider>[class*='col-'] {
+        position: static;
+    }
+    .grid-divider>[class*='col-']:nth-child(n+2):before {
+        content: "";
+        border-left: 1px solid #DDD;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+    }
+    .col-padding {
+        padding: 0 15px;
+    }
+
+div.card-bg{
+width:80%;
+height:80%;
+background-color:#DCDCDC;
+}
+div .logo{
+width:60px;
+height:60px:
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-medium {
+  background: #007bb5;
+  color: white;
+}
