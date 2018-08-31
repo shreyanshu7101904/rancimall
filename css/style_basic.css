@@ -106,3 +106,12 @@ height:60px:
   background: #007bb5;
   color: white;
 }
+
+
+@media screen and (min-width:320px) and (max-width:640px) {
+  /* for screens that are at least 320 pixels wide but less than or equal to 640 pixels wide */
+div .logo{
+width:10px;
+height:10px:
+}
+} 
